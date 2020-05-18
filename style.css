@@ -5,7 +5,14 @@
    border-radius:50%;
    background-color:lightblue;
 }
-
+.card{
+  background-color: gainsboro !important;
+  border:groove grey 2px !important;
+}
+.card-footer{
+  background-color: orange !important;
+  border-top:grey 2px groove !important;
+}
 @media screen and (max-width: 768px) {
   .figure-img img{
     margin-left:21.6%;
@@ -103,7 +110,19 @@ footer{
   color: white;
 }
 body{
-  background-color:rgba(255, 193, 7, 0.6)!important;
+  background-color:rgba(252, 254, 255, 0.925)!important;
+  }
+  .aboutme{
+    background-image: url(images/aboutme.jpg);
+    min-height: 174.4px;
+    background-repeat:repeat ;
+    
+  }
+  #demo{
+    background-image: url(images/aboutme.jpg);
+    min-height: 174.4px;
+    background-repeat:repeat ;
+    
   }
 
 
