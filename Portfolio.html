@@ -26,23 +26,29 @@ a<html>
     </section>
 
     <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-      <a class="navbar-brand" href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
-      <ul class="navbar-nav">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #484848;">
+      <a class="navbar-brand" href="#"><i class="fa fa-anchor" aria-hidden="true"></i></a>
+      <ul class="navbar-nav" id="navbarResponsive">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#Aboutme">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Links</a>
+          <a class="nav-link" href="#Contacts">Contact Links</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
         </li>
       </ul>
     </nav>
     <!--Your Info-->
-    <div class="figure-img">
+    <div id ="Aboutme" class="figure-img">
       <img src="images/avatar.png" alt="...">
     </div>
     <!--About Me Collapse-->
-    <div class="container-fluid padding border border-primary aboutme ">
+    <div class="container-fluid padding border border-primary aboutme " id="Contacts">
       <h2 class="display-3 align-content-center">About Me</h2>
       <p>Click on the button to toggle between showing and hiding content.</p>
       <button
@@ -61,7 +67,7 @@ a<html>
       </div>
     </div>
     <!--Contact Links-->
-    <div class="container-fluid padding">
+    <div class="container-fluid padding " id="Projects">
       <div class="row text-center padding">
         <div class="col-12">
         <h2>Contact Links</h2>
@@ -79,7 +85,7 @@ a<html>
 
     <!--Projects' Heading-->
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding" id="Projects">
       <div class="row welcome text-center">
         <div class="col-12">
           <h1 class="display-4">Projects Completed</h1>
@@ -100,7 +106,7 @@ a<html>
             </p>
           </div>
           <div class="card-footer">
-            <input
+            <input id="github"
               type="button"
               class="btn-secondary btn-outline-dark btn-group-lg"
               value="View Github Profile"
@@ -117,7 +123,7 @@ a<html>
             </p>
           </div>
           <div class="card-footer">
-            <input
+            <input id="github"
               type="button"
               class="btn-secondary btn-outline-dark btn-group-lg"
               value="View Github Profile"
@@ -135,8 +141,8 @@ a<html>
             </p>
           </div>
           <div class="card-footer">
-            <input
-              type="button"
+            <input id="github"
+              type="button" 
               class="btn-secondary btn-outline-dark btn-group-lg"
               value="View Github Profile"
             />
@@ -145,7 +151,7 @@ a<html>
       </div>
     </div>
     <!--Skills Heading-->
-    <div class="container padding">
+    <div class="container padding" id="Skills">
       <div class="row welcome text-center">
         <div class="col-md-12">
           <h1 class="heading">Skills</h1>

@@ -1,22 +1,35 @@
+/*Navbar*/
+@media only screen and (max-width:768px) {
+  .navbar-nav{
+    float:left;
+  }
+}
+
+
 /*Info*/
 .figure-img img{
    border:double 2px burlywood;
    margin-left:40%;
    border-radius:50%;
    background-color:lightblue;
-}
+} 
+
+/*Cards*/
 .card{
   background-color: gainsboro !important;
-  border:groove grey 2px !important;
+  border:solid grey 2px !important;
 }
 .card-footer{
-  background-color: orange !important;
-  border-top:grey 2px groove !important;
+  background-color: #484848 !important;
+  border-top:solid 2px grey !important;
 }
 @media screen and (max-width: 768px) {
   .figure-img img{
     margin-left:21.6%;
   }
+}
+#github{
+  background-color:coral;
 }
 .figure-img{
   background-image:url(images/back.jpg);
@@ -29,6 +42,11 @@
   background: url('images/showcase.jpg') no-repeat 0 -400px;
   text-align: center;
   color: #ffffff;
+}
+@media only screen and (max-width:768px) {
+  #showcase{
+    margin-top:5rem;
+  }
 }
 #showcase h1{
   padding:2em;
@@ -72,7 +90,7 @@ footer{
   padding:20px;
   margin-top:20px;
   color:#ffffff;
-  background-color:#e8491d;
+  background-color:#484848;
   text-align: center;
 }
 /*Contact-Icons*/
