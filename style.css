@@ -27,16 +27,38 @@
   padding:2em;
 }
 /*Skills*/
-#box img{
- margin-left:29%;
+.heading{
+  margin-right:10%;
 }
-#box text{
-  padding:0rem 0rem;
-}
-@media screen and (max-width: 768px) {
-  #box img{
-    margin-left:25%
+@media only screen and (max-width:768px) {
+  .heading{
+    margin-right: 0rem;
   }
+}
+#boxes{
+  margin-top: :20px;
+}
+.container
+{
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+#boxes .box{
+  text-align: center;
+  width: 30%;
+  float:left;
+  padding:10px;
+}
+@media only screen and (max-width:768px) {
+  #boxes .box{
+    float: none;
+    text-align: center;
+    width:100%;
+  }
+}
+#boxes .box img{
+  width:90px;
 }
 
 footer{
